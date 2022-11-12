@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(118, 25, 25);
+    padding: 50px;
+    
+}
+
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+
+}
+
+.locations h1 {
+    text-align: center;
+    background-color: transparent;
+    color: rgb(76, 162, 111);
+    font-size: 20px;
+    
+}
+
+
+.center {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center img {
+    width: 30%;
+    background-color: transparent;
+}
+
+.center ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+ul {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    background-color: transparent;
+}
+
+
+.center li {
+    color: rgb(248, 237, 178);
+    
+    padding: 0px 20px;
+    cursor: pointer;
+    font-family: 'Josefin Sans';
+    background-color: transparent;
+    transition: 0.3s;
+
+}
+
+.center li:hover {
+    color: rgb(84, 135, 97);
+}
+
+.footer p {
+    background-color: transparent;
+    color: rgb(248, 237, 178);
+    font-family: sans-serif;
+    font-size: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30px;
+    width: 30%;
+    
+}
+
+.social-media a {
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(255, 245, 169);
+    transition: 0.3s;
+    
+}
+
+.social-media a:hover {
+    cursor: pointer;
+    color: rgb(77, 139, 58);
+    background-color: transparent;
+    
+}
+
+.working {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: transparent;
+
+}
+
+.working h1 {
+    text-align: center;
+    background-color: transparent;
+    color: rgb(76, 162, 111);
+    font-size: 20px;
+    margin: 0px 40px;
+}
+
+.working h2 {
+    background-color: transparent;
+    color: rgb(76, 162, 111);
+    font-size: 15px;
+}
+
+.working h2 p {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
