@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css"
 
 import Carousel from 'react-bootstrap/Carousel';
+import { Fade } from "react-awesome-reveal";
 
 import pizzarestaurant from '../img/pizza-restaurant.jpg'
 import pizzaiolo from '../img/pizzaiolo.jpg'
@@ -21,24 +22,24 @@ const About = () => {
                 <Carousel.Item>
                     <img src={pizzarestaurant} alt="" />
                     <Carousel.Caption>
-                    <h3>Pizza comete esta</h3>
-                    <p>Comete esta con muzarella</p>
+                    <h3>DON PIZZA</h3>
+                    <p>FORGET THE TRENDY PIZZA SHOPS, THIS HIDDEN SPOT MAKES THE BEST WORLD CLASS PIZZA SLICE</p>
                 </Carousel.Caption>
                 </Carousel.Item> 
 
                 <Carousel.Item>
                     <img src={pizzaiolo} alt="" />
                     <Carousel.Caption>
-                    <h3>Pizza comete esta</h3>
-                    <p>Comete esta con muzarella</p>
+                    <h3>DON PIZZA</h3>
+                    <p>FORGET THE TRENDY PIZZA SHOPS, THIS HIDDEN SPOT MAKES THE BEST WORLD CLASS PIZZA SLICE</p>
                 </Carousel.Caption>
                 </Carousel.Item>  
 
                 <Carousel.Item>
                     <img src={pizzaplace} alt="" />
                     <Carousel.Caption>
-                    <h3>Pizza comete esta</h3>
-                    <p>Comete esta con muzarella</p>
+                    <h3>DON PIZZA</h3>
+                    <p>FORGET THE TRENDY PIZZA SHOPS, THIS HIDDEN SPOT MAKES THE BEST WORLD CLASS PIZZA SLICE</p>
                 </Carousel.Caption>
                 </Carousel.Item>  
 

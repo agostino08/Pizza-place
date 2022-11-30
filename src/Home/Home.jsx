@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Home.css";
+import { Component } from 'react';
 
 import { Fade } from "react-awesome-reveal";
 
@@ -10,25 +11,38 @@ import size3 from '../img/size3.png';
 import pizzapepe from '../img/pizzapepe.jpg';
 
 
-const Home = () => {
+
+class Home extends Component {
+    state={clicked: false};
+    handleClick = () => {
+        this.setState({clicked:!this.state.clicked})
+    }
+    render () {
+
     return (
         <div className='home-main'>
 
-        
 
-            <div className='home'>
+         <div className='home'>
 
             <div className='navbar'>
            
            <img src={logo} alt="app logo" />
           
 
-           <ul className='navbar-links'>
-               <li className='p__opensans'>Home</li>
-               <li className='p__opensans'>About us</li>
-               <li className='p__opensans'>Menu</li>
-               <li className='p__opensans'>Contact</li>
+           <ul id='navbar-links' className={this.state.clicked ? ".navbar-links active" : ".navbar-links"} >
+               <li className='nav-li'>Home</li>
+               <li className='nav-li'>About us</li>
+               <li className='nav-li'>Menu</li>
+               <li className='nav-li'>Contact</li>
            </ul>
+
+           
+
+           <div className='mobile' onClick={this.handleClick}>
+                <i id='bar' className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+               
+           </div>
 
            <div className='navbar-login'>
                <a href="#login" className='p__opensans'>Log in / Register</a>
@@ -47,10 +61,10 @@ const Home = () => {
                 <h2 className='sub-title'>Our best secret in pizza: Ingredients of happiness and touches of joy.</h2></Fade>
                 
                 <div className='button-home'>
-             <button>ORDER NOW</button>
-                <button>BOOK TABLE</button>
+                  <button>ORDER NOW</button>
+                  <button>BOOK TABLE</button>
             
-             </div>
+                 </div>
 
              </div>
             
@@ -82,12 +96,15 @@ const Home = () => {
                     </div>
                     
              </div>
-             <img src={pizzapepe} alt="" />
+
+             <img  className='pizza-box' src={pizzapepe} alt="" />
             </div>
             
         </div>
         
     )
-};
+
+}
+}
 
 export default Home;
