@@ -8,7 +8,15 @@
 	/* outline: 1px solid red; */
 } 
 
-.navbar {
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+#navbar {
+	z-index: 10;
+	width: 100%;
+	background-color: transparent;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -118,15 +126,18 @@ button:hover:after {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 250px 0px;
+	margin: 200px 100px;
 	width: 100%;
-	height: 100%;
+	
 	
 }
 
+.pizza-slice img {
+	margin: 20px ;
+}
+
 .pizza-box {
-	width: 65%;
-	height: 100%;
+	width: 50%;
 }
 
 .box h1 {

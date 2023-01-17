@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Home.css";
-import { Component } from 'react';
+import { Component, useState, useEffect } from 'react';
 
 import { Fade } from "react-awesome-reveal";
 
@@ -25,17 +25,17 @@ class Home extends Component {
 
          <div className='home'>
 
-            <div className='navbar'>
+          <div className='navbar' id="navbar">
            
-           <img src={logo} alt="app logo" />
+            <img src={logo} alt="app logo" />
           
 
-           <ul id='navbar-links' className={this.state.clicked ? ".navbar-links active" : ".navbar-links"} >
+            <ul id='navbar-links' className={this.state.clicked ? ".navbar-links active" : ".navbar-links"} onClick={this.handleClick} >
                <li className='nav-li'>Home</li>
                <li className='nav-li'>About us</li>
                <li className='nav-li'>Menu</li>
                <li className='nav-li'>Contact</li>
-           </ul>
+            </ul>
 
            
 
