@@ -28,7 +28,7 @@ The project was divided into four parts, the home page, about us, menu and conta
 -----
 ## Final result
 
-You can visit the Webpage here: [Pizza place website](https://agostino08.github.io/Travel-Page/)
+You can visit the Webpage here: [Pizza place website](https://main.d1qf6bpwrnz660.amplifyapp.com/)
 
 -----
 
