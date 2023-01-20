@@ -1,4 +1,4 @@
-# :Pizza: Pizza place, pizza restaurant website made with React
+# :pizza: Pizza place, pizza restaurant website made with React
 
  ## Welcome to Pizza place.
  
