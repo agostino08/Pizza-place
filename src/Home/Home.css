@@ -125,15 +125,15 @@ button:hover:after {
 .pizza-slice {
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	margin: 200px 100px;
-	width: 100%;
+	margin: 300px auto;
+	width: 80%;
+	border: 1px solid red;
 	
 	
 }
 
 .pizza-slice img {
-	margin: 20px ;
+	margin: 20px;
 }
 
 .pizza-box {
